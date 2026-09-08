@@ -2,8 +2,8 @@
 # Assignment One
 # ddl is 22/9/2026 23:59pm
 
-choice = input("Which task do you want to view? (a/b)")
-if choice == "a":
+choice = str(input("Which task do you want to view? (1/2)"))
+if choice == "1":
 	# Task A
 	a = input("First number?")
 	b = input("Second number?")
@@ -14,7 +14,7 @@ if choice == "a":
 	else:
 	    print("Incorrect operator")
 
-elif choice == "b":
+elif choice == "2":
 	# Task B
 	q = input("Please type in your question: ")
 
@@ -30,7 +30,6 @@ elif choice == "b":
 	    print("My name is Zhong Ching Yu")
 	else:
 	    print("Sorry, i can't answer it")
-
 
 
 
